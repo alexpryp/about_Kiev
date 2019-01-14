@@ -104,15 +104,25 @@ h2, h3 {
 	text-align: center;
 }
 
+.separator img {
+	width: 50%;
+	max-width: 700px;
+	margin: auto;
+	display: block
+}
+
 
 /* Photocards stilization */
 .photo-card {
 	max-width: 400px;
 	margin: 5px;
-	float: right;
+	float: left;
 	background-color: white;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	margin-bottom: 25px;
+}
+.photo-card-right {
+	float: right;
 }
 .photo-card img {
 	width: 100%;
