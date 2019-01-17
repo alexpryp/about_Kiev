@@ -60,7 +60,7 @@ body, html {
 	display: block;
 	color: inherit;
 	float: left;
-	padding: 15px;
+	padding: 10px 15px;
 }
 /* .nav a.scroll {
 	color: #fff;
@@ -73,7 +73,7 @@ body, html {
 	color: #fff;
 }
 
-.main, .center, .bottom {
+.main, .places, .bottom {
 	background-position: center;
 	background-repeat: no-repeat;
 	border-collapse: cover;
@@ -83,7 +83,7 @@ body, html {
 	justify-content: center;
 	align-items: center;
 }
-.main {
+.main, .places {
 	background-image: url(../images/main.jpg);
 	min-height: 100vh;
 }
@@ -138,7 +138,7 @@ h2, h3 {
 }
 
 
-.center {
+.places {
 	background-image: url(../images/center.jpg);
 	height: 400px;
 }
@@ -155,4 +155,21 @@ h2, h3 {
 	line-height: 1.6em;
 	background-color: #333;
 	padding: 20px;
+}
+/* footer styles */
+body>footer {
+	margin: 0px;
+	padding: 10px;
+	background-color: #333;
+	color: #fff;
+}
+body>footer ul {
+	list-style: none;
+}
+ul a {
+	text-decoration: none;
+	color: #fff;
+}
+ul a:hover {
+	color: lightblue;
 }
