@@ -73,7 +73,7 @@ body, html {
 	color: #fff;
 }
 
-.main, .places, .bottom {
+.main, .places, .contacts {
 	background-position: center;
 	background-repeat: no-repeat;
 	border-collapse: cover;
@@ -83,7 +83,7 @@ body, html {
 	justify-content: center;
 	align-items: center;
 }
-.main, .places {
+.main {
 	background-image: url(../images/main.jpg);
 	min-height: 100vh;
 }
@@ -140,11 +140,11 @@ h2, h3 {
 
 .places {
 	background-image: url(../images/center.jpg);
-	height: 400px;
+	min-height: 100vh;
 }
-.bottom {
+.contacts {
 	background-image: url(../images/bottom.jpg);
-	height: 400px;
+	min-height: 100vh;
 }
 .ptext {
 	font-size: 1.8rem;
@@ -156,6 +156,13 @@ h2, h3 {
 	background-color: #333;
 	padding: 20px;
 }
+
+/* contacts */
+.contacts {
+	height: 500px;
+}
+
+
 /* footer styles */
 body>footer {
 	margin: 0px;
