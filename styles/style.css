@@ -184,6 +184,15 @@ ul a:hover {
 
 /* Places-main styles */
 .places-main {
-	height: 500px;
-	width: 100%;
+	display: flex;
+}
+.places-main .place-card {
+	margin: 20px;
+	height: 400px;
+	width: 300px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+.places-main .place-card:hover {
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
