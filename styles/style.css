@@ -180,3 +180,10 @@ ul a {
 ul a:hover {
 	color: lightblue;
 }
+
+
+/* Places-main styles */
+.places-main {
+	height: 500px;
+	width: 100%;
+}
