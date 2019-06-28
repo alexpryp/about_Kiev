@@ -12,4 +12,11 @@
         }
     }
 
+
+    let dateFrame = document.querySelector(".dateFrame");
+    let date = new Date();
+    let year = date.getFullYear();
+
+    dateFrame.innerHTML = "© " + year + " Киев";
+
 })();
